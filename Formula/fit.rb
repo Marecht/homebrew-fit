@@ -10,7 +10,6 @@ class Fit < Formula
 
   def install
     bin.install "fit.sh" => "fit"
-    prefix.install "config"
     prefix.install "_fit"
     prefix.install "fit.bash"
     prefix.install "AGENT_DOCUMENTATION.md"
